@@ -88,7 +88,7 @@ color: #fff;
     margin: 0 10px;
 }
 .house-bg{
-    background: linear-gradient(rgba(0, 0, 0, 0.418),rgba(0, 0, 0, 0.477)),url(Homes_Photo_dev_hero-3.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.418),rgba(0, 0, 0, 0.477)),url(image/Homes_Photo_dev_hero-3.jpg);
     background-size: cover;
     background-position: center ;
 }
