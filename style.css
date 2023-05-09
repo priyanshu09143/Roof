@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    padding: 0 150px;
+}
+.upper-nav , .lower-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 0;
+}
+.upper-nav-bg{
+    background-color: #000422;
+}
+.upper-nav h3,.upper-nav a{
+    color: #fff;
+    margin: 15px;
+    
+}
+nav a{
+    text-decoration: none;
+}
+.upper-nav ul , .lower-nav ul{
+    display: flex;
+    list-style: none;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.logo-img {
+    width: 130px;
+    height: 80px;
+}
+.lower-nav ul a
+{
+margin: 20px;   
+color: #00000078;
+
+}
+.lower-nav ul{
+    font-size: 19px;
+}
+
+.logo-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+#Estimate {
+    text-decoration: none;
+    font-size: 16px;
+    padding: 14px 35px;
+    /* border-radius: 7px; */
+    background-color: #055420;
+    color: #fff;
+}
+.house-right{
+    max-width: 530px;
+    max-height: 300px;
+}
+.house-right img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.house{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+}
+.house-left h1{
+font-size: 3rem;
+color: #fff;
+}
+.house-left p{
+    color: #fff ;
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+.house-left *{
+    margin: 20px 0;
+}
+.house-left a{
+    margin: 0 10px;
+}
+.house-bg{
+    background: linear-gradient(rgba(0, 0, 0, 0.418),rgba(0, 0, 0, 0.477)),url(Homes_Photo_dev_hero-3.jpg);
+    background-size: cover;
+    background-position: center ;
+}
+#number{
+    text-decoration: none;
+    font-size: 16px;
+    padding: 11px 32px;
+    padding: 14px 70px;
+    border: 1px solid white;
+    background-color: #05542100;
+    color: #fff;
+}
